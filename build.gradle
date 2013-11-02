@@ -1,0 +1,8 @@
+
+subprojects {
+	plugins.withType(CppPlugin) {
+		project.toolChains {
+	    		clang(Clang)
+		}
+	}
+}

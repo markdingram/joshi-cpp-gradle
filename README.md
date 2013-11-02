@@ -1,4 +1,9 @@
 joshi-cpp-gradle
 ================
 
-Build Joshi C++ Design Patterns and Derivatives Pricing source with Gradle C++ support
+Build Joshi C++ Design Patterns and Derivatives Pricing source with Gradle C++ support.
+
+    ./gradlew assemble
+
+
+    ./gradlew tasks --all

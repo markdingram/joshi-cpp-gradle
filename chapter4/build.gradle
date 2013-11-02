@@ -1,0 +1,10 @@
+apply plugin: 'cpp'
+
+executables {
+	chapter4_2 {}
+	chapter4_3 {}
+	chapter4_5 {}
+	chapter4_7 {}
+}
+
+assemble.dependsOn 'chapter4_2Executable', 'chapter4_3Executable', 'chapter4_5Executable', 'chapter4_7Executable'

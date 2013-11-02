@@ -1,0 +1,17 @@
+apply plugin: 'cpp'
+
+libraries {
+	lib {}
+}
+
+executables {
+	chapter3_3 {}
+	chapter3_5 {}
+	chapter3_6 {}
+}
+
+sources.chapter3_3.cpp.lib libraries.lib.static
+sources.chapter3_5.cpp.lib libraries.lib.static
+sources.chapter3_6.cpp.lib libraries.lib.static
+
+assemble.dependsOn 'chapter3_3Executable', 'chapter3_5Executable', 'chapter3_6Executable'
