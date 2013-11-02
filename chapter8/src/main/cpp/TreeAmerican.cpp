@@ -5,7 +5,7 @@
 //
 
 #include <TreeAmerican.h>
-#include <minmax.h>
+#include <MinMax.h>
 
 TreeAmerican::TreeAmerican(double FinalTime,
                            const PayOffBridge& ThePayOff_)

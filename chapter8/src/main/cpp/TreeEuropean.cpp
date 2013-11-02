@@ -5,7 +5,7 @@
 //
 
 #include <TreeEuropean.h>
-#include <minmax.h>
+#include <MinMax.h>
 
 TreeEuropean::TreeEuropean(double FinalTime,
                            const PayOffBridge& ThePayOff_)

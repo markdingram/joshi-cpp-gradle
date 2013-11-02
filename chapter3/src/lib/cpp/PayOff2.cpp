@@ -6,7 +6,7 @@
 
 
 #include <PayOff2.h>
-#include <minmax.h>
+#include <MinMax.h>
 
 PayOffCall::PayOffCall(double Strike_) : Strike(Strike_)
 {
